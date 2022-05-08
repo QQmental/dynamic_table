@@ -126,7 +126,7 @@ value_t AVL_tree_array<value_t>::Get(int64_t index)
 	if (index >= this->ArrayLength || index < 0)
 	{
 		std::cout<<"you cna't get" <<index<<"th item\n";
-		AVL_node<value_t> nothing;
+		value_t nothing;
 		return nothing;
 	}
 		

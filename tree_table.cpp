@@ -1,9 +1,6 @@
 #include<iostream>
-#include<algorithm>
-#include <sys/types.h>
 #include"tree_table.hpp"
 #include <time.h>
-#include <array>
 #include <vector>
 int main()
 {
@@ -19,7 +16,7 @@ int main()
 
 
 
-	for(int i = 1 ; i < 30000000 ; i++)
+	for(int i = 1 ; i < 3000000 ; i++)
 	{
 		
 		int num = rand()%10000000;
